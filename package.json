@@ -1,0 +1,24 @@
+{
+  "name": "type-absenso",
+  "version": "1.0.0",
+  "description": "This is the directory that manages all the types of all the absenso applications.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build" : "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABSENSO/Type-Absenso.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ABSENSO/Type-Absenso/issues"
+  },
+  "homepage": "https://github.com/ABSENSO/Type-Absenso#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
