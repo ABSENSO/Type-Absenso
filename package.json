@@ -1,6 +1,6 @@
 {
   "name": "type-absenso",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "This is the directory that manages all the types of all the absenso applications.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
