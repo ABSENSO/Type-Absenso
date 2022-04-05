@@ -1,1 +1,1 @@
-export type test = "hello world"
+export {collections} from "./db/collection";
