@@ -1,4 +1,4 @@
 export {collections} from "./db/collection";
 
-export {usersTypes, IUsers} from "./db/document";
-export {IDataFrontAdminUser} from "./api/user"
+export {usersTypes, IUsers, IFuneralCompany} from "./db/document";
+export {IDataFrontAdminUser, IDataFrontFuneralUser} from "./api/user"
