@@ -1,4 +1,5 @@
 export const collections = {
     users: "users",
-    funeralCompany: "funeralCompany"
+    funeralCompany: "funeralCompany",
+    death: "death",
 }

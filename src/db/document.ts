@@ -21,3 +21,24 @@ export interface IFuneralCompany<T> {
     country: string;
     phone: string;
 }
+
+export interface IGeolocation {
+    lat: number;
+    lng: number;
+    hash: string;
+}
+
+export interface IDeath<D, T> {
+    admin: Array<D | "absenso">;
+    profilePicture: string;
+    name: string;
+    firstName: string;
+    fullname: string;
+    lastAddress: string;
+    geoLocation: IGeolocation;
+    nOfCandlesOrdered: number;
+    dateOfBirth: T;
+    dateOfDeath: T;
+    createAt: T;
+    createBy: D;
+}
