@@ -9,5 +9,6 @@ export {
     IProduct,
     IStock,
 } from "./db/document";
-export {IDataFrontAdminUser, IDataFrontFuneralUser} from "./api/user"
-export {IDataFrontMail} from "./api/mail"
+export {IDataFrontAdminUser, IDataFrontFuneralUser} from "./api/user";
+export {IDataFrontMail} from "./api/mail";
+export {IDataFrontUploadStock} from "./api/stock";
