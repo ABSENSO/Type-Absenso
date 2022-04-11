@@ -42,3 +42,16 @@ export interface IDeath<D, T> {
     createAt: T;
     createBy: D;
 }
+
+export interface IProduct {
+    id?: string;
+    name: string;
+    price: number;
+}
+
+export interface IStock<D> {
+    product: D;
+    idLabel: string;
+    link?: D;
+    place?: D;
+}
