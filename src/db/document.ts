@@ -55,3 +55,9 @@ export interface IStock<D> {
     link?: D;
     place?: D;
 }
+
+export interface IKit<D> {
+    products: Array<D>;
+    death?: D;
+    funeral?: D;
+}

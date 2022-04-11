@@ -3,3 +3,8 @@ export interface IDataFrontUploadStock {
     label_id: string;
     product_id: string;
 }
+
+export interface IDataFrontCreateKit {
+    products: Array<string>;
+    idBox: string;
+}

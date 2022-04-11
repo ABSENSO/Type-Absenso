@@ -8,7 +8,8 @@ export {
     IGeolocation,
     IProduct,
     IStock,
+    IKit,
 } from "./db/document";
 export {IDataFrontAdminUser, IDataFrontFuneralUser} from "./api/user";
 export {IDataFrontMail} from "./api/mail";
-export {IDataFrontUploadStock} from "./api/stock";
+export {IDataFrontUploadStock, IDataFrontCreateKit} from "./api/stock";
