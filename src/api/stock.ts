@@ -8,3 +8,11 @@ export interface IDataFrontCreateKit {
     products: Array<string>;
     idBox: string;
 }
+
+export interface IDataFrontTransfer {
+    idFuneral: {
+        funeral: string;
+    },
+    ids: Array<string>;
+    collection: string;
+}

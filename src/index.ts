@@ -12,4 +12,4 @@ export {
 } from "./db/document";
 export {IDataFrontAdminUser, IDataFrontFuneralUser} from "./api/user";
 export {IDataFrontMail} from "./api/mail";
-export {IDataFrontUploadStock, IDataFrontCreateKit} from "./api/stock";
+export {IDataFrontUploadStock, IDataFrontCreateKit, IDataFrontTransfer} from "./api/stock";

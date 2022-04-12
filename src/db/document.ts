@@ -53,11 +53,12 @@ export interface IStock<D> {
     product: D;
     idLabel: string;
     link?: D;
-    place?: D;
+    place: D | "absenso";
 }
 
 export interface IKit<D> {
     products: Array<D>;
+    place: D | "absenso";
     death?: D;
     funeral?: D;
 }
