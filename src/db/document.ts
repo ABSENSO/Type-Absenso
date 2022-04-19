@@ -62,3 +62,12 @@ export interface IKit<D> {
     deceased?: D;
     funeral?: D;
 }
+
+export interface IOrderCandles<T, D> {
+    deliveryAddress: string;
+    product: D;
+    numberOfOrders: number;
+    date: T;
+    postalCodeDelivery: string;
+    purchaser: D;
+}

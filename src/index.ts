@@ -9,6 +9,7 @@ export {
     IProduct,
     IStock,
     IKit,
+    IOrderCandles,
 } from "./db/document";
 export {
     IDataFrontAdminUser,
@@ -21,3 +22,6 @@ export {
     IDataFrontTransfer,
     IDataFrontLinkStockOrKit
 } from "./api/stock";
+export {
+    IDataFrontOrderCandles
+} from "./api/orderCandles";
