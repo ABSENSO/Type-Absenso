@@ -52,13 +52,13 @@ export interface IProduct {
 export interface IStock<D> {
     product: D;
     idLabel: string;
-    link?: D;
+    deceased?: D;
     place: D | "absenso";
 }
 
 export interface IKit<D> {
     products: Array<D>;
     place: D | "absenso";
-    death?: D;
+    deceased?: D;
     funeral?: D;
 }

@@ -10,6 +10,14 @@ export {
     IStock,
     IKit,
 } from "./db/document";
-export {IDataFrontAdminUser, IDataFrontFuneralUser} from "./api/user";
+export {
+    IDataFrontAdminUser,
+    IDataFrontFuneralUser,
+} from "./api/user";
 export {IDataFrontMail} from "./api/mail";
-export {IDataFrontUploadStock, IDataFrontCreateKit, IDataFrontTransfer} from "./api/stock";
+export {
+    IDataFrontUploadStock,
+    IDataFrontCreateKit,
+    IDataFrontTransfer,
+    IDataFrontLinkStockOrKit
+} from "./api/stock";
