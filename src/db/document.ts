@@ -1,3 +1,5 @@
+import { TSexe } from "../api/user";
+
 export type usersTypes = "adminAdmin" | "userAdmin" | "user" | "funeral"
 
 export interface IUsers {
@@ -5,6 +7,8 @@ export interface IUsers {
     name: string;
     firstName: string;
     email: string;
+    phone: string;
+    sexe: TSexe;
 }
 
 export interface IFuneralCompany<T> {
@@ -70,4 +74,10 @@ export interface IOrderCandles<T, D> {
     date: T;
     postalCodeDelivery: string;
     purchaser: D;
+    deceased?: D | null;
+    deliveryCity: string;
+    deliveryCountry: string;
+    firstName: string;
+    linkDeceased: boolean;
+    name: string;
 }
