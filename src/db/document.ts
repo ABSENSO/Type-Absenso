@@ -1,14 +1,16 @@
-import { TSexe } from "../api/user";
+import { TPictures, TSexe } from "../api/user";
 
 export type usersTypes = "adminAdmin" | "userAdmin" | "user" | "funeral"
 
-export interface IUsers {
+export interface IUsers<D> {
     type: Array<usersTypes>;
     name: string;
     firstName: string;
     email: string;
     phone: string;
     sexe: TSexe;
+    dateOfBirth?: D;
+    pictures?: TPictures;
 }
 
 export interface IFuneralCompany<T> {

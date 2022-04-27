@@ -15,6 +15,7 @@ export {
     IDataFrontAdminUser,
     IDataFrontFuneralUser,
     TSexe,
+    IDataFrontUserSignup,
 } from "./api/user";
 export {IDataFrontMail} from "./api/mail";
 export {
