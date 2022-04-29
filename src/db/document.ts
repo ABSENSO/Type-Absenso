@@ -37,6 +37,7 @@ export interface IGeolocation {
 export interface IDeath<D, T> {
     admin: Array<D | "absenso">;
     profilePicture: string;
+    coverPicture: "default" | string;
     name: string;
     firstName: string;
     fullname: string;
@@ -47,6 +48,12 @@ export interface IDeath<D, T> {
     dateOfDeath: T;
     createAt: T;
     createBy: D;
+    description: null | string;
+    numberOfMemories: number;
+    numberOfCandlePurchases: number;
+    numberOfThoughtsSend: number;
+    numberOfBouquetsLaid: number;
+    numberOfTestimoniesLeft: number;
 }
 
 export interface IProduct {
