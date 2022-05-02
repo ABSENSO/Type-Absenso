@@ -10,6 +10,7 @@ export {
     IStock,
     IKit,
     IOrderCandles,
+    IPost,
 } from "./db/document";
 export {
     IDataFrontAdminUser,

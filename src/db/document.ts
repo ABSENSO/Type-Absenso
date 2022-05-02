@@ -90,3 +90,13 @@ export interface IOrderCandles<T, D> {
     linkDeceased: boolean;
     name: string;
 }
+
+export interface IPost<D, T> {
+    user: D;
+    deceased: D;
+    date: T;
+    type: "video" | "pictures" | "default";
+    media: null | string;
+    description: string;
+    dateOfRemembrance: T;
+}

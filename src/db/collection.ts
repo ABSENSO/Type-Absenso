@@ -6,4 +6,5 @@ export const collections = {
     stock: "stock",
     kit: "kit",
     orderCandles: "orderCandles",
+    post: "post",
 }
