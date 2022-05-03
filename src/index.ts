@@ -11,6 +11,8 @@ export {
     IKit,
     IOrderCandles,
     IPost,
+    IComments,
+    ILikes
 } from "./db/document";
 export {
     IDataFrontAdminUser,
@@ -28,3 +30,6 @@ export {
 export {
     IDataFrontOrderCandles
 } from "./api/orderCandles";
+export {
+    IDataFrontDeleteLikes
+} from "./api/likes";

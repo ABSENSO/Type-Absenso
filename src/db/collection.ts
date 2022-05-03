@@ -7,4 +7,6 @@ export const collections = {
     kit: "kit",
     orderCandles: "orderCandles",
     post: "post",
+    likes: "likes",
+    comments: "comments"
 }

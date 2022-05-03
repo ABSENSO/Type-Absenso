@@ -100,3 +100,14 @@ export interface IPost<D, T> {
     description: string;
     dateOfRemembrance: T;
 }
+
+export interface IComments<D, T> {
+    user: D;
+    date: T;
+    comment: string;
+}
+
+export interface ILikes<D, T> {
+    user: D;
+    date: T;
+}
