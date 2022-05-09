@@ -12,7 +12,8 @@ export {
     IOrderCandles,
     IPost,
     IComments,
-    ILikes
+    ILikes,
+    INotification
 } from "./db/document";
 export {
     IDataFrontAdminUser,

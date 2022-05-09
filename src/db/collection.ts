@@ -8,5 +8,6 @@ export const collections = {
     orderCandles: "orderCandles",
     post: "post",
     likes: "likes",
-    comments: "comments"
+    comments: "comments",
+    notification: "notifications"
 }

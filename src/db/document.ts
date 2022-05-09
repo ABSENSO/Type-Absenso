@@ -95,7 +95,7 @@ export interface IPost<D, T> {
     user: D;
     deceased: D;
     date: T;
-    type: "video" | "pictures" | "default";
+    type: "video" | "pictures" | "default" | "litCandle" | "placedBouquet" | "buyProduct";
     media: null | string;
     description: string;
     dateOfRemembrance: T;
@@ -110,4 +110,12 @@ export interface IComments<D, T> {
 export interface ILikes<D, T> {
     user: D;
     date: T;
+}
+
+export interface INotification<D, T> {
+    userGiving: D;
+    link: string;
+    type: "comment" | "like" | "follow";
+    date: T;
+    hasBeenSeen: boolean;
 }
