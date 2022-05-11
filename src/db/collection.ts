@@ -9,5 +9,6 @@ export const collections = {
     post: "post",
     likes: "likes",
     comments: "comments",
-    notification: "notifications"
+    notification: "notifications",
+    follow: "follow"
 }

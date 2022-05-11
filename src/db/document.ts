@@ -60,6 +60,7 @@ export interface IProduct {
     id?: string;
     name: string;
     price: number;
+    image: string;
 }
 
 export interface IStock<D> {
@@ -118,4 +119,11 @@ export interface INotification<D, T> {
     type: "comment" | "like" | "follow";
     date: T;
     hasBeenSeen: boolean;
+    text: string | null;
+}
+
+export interface IFollow<D, T> {
+    userGiving: D;
+    death: D;
+    date: T;
 }

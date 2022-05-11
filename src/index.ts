@@ -13,7 +13,8 @@ export {
     IPost,
     IComments,
     ILikes,
-    INotification
+    INotification,
+    IFollow,
 } from "./db/document";
 export {
     IDataFrontAdminUser,
@@ -34,3 +35,6 @@ export {
 export {
     IDataFrontDeleteLikes
 } from "./api/likes";
+export {
+    IDataFrontDeleteFollow
+} from "./api/follow";
