@@ -10,5 +10,6 @@ export const collections = {
     likes: "likes",
     comments: "comments",
     notification: "notifications",
-    follow: "follow"
+    follow: "follow", 
+    payment: "payment"
 }

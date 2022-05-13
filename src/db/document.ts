@@ -1,3 +1,4 @@
+import { IDataFrontOrderProduct } from "../api/order";
 import { TPictures, TSexe } from "../api/user";
 
 export type usersTypes = "adminAdmin" | "userAdmin" | "user" | "funeral"
@@ -116,7 +117,7 @@ export interface ILikes<D, T> {
 export interface INotification<D, T> {
     userGiving: D;
     link: string;
-    type: "comment" | "like" | "follow";
+    type: "comment" | "like" | "follow" | "post";
     date: T;
     hasBeenSeen: boolean;
     text: string | null;
@@ -126,4 +127,15 @@ export interface IFollow<D, T> {
     userGiving: D;
     death: D;
     date: T;
+}
+
+export interface IPayment<D, T> extends Omit<
+    IDataFrontOrderProduct<D, T>, "products" | "deathId"
+> {
+    products: Array<{
+        product: D;
+        qte: number;
+    }>;
+    status: "created" | "failed" | "complete",
+    deathId: D;
 }
