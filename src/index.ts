@@ -16,6 +16,7 @@ export {
     INotification,
     IFollow,
     IPayment,
+    IBouquets
 } from "./db/document";
 export {
     IDataFrontAdminUser,
@@ -43,6 +44,12 @@ export {
     IDataFrontOrderProduct,
     IDataReceiveOrderProduct
 } from "./api/order";
+export {
+    IDataFrontDeletePost
+} from "./api/post";
+export {
+    IDataFrontDeleteComment
+} from "./api/comment";
 export {
     router
 } from "./router";

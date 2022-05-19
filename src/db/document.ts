@@ -117,7 +117,7 @@ export interface ILikes<D, T> {
 export interface INotification<D, T> {
     userGiving: D;
     link: string;
-    type: "comment" | "like" | "follow" | "post";
+    type: "comment" | "like" | "follow" | "post" | "addBouquet";
     date: T;
     hasBeenSeen: boolean;
     text: string | null;
@@ -138,4 +138,9 @@ export interface IPayment<D, T> extends Omit<
     }>;
     status: "created" | "failed" | "complete",
     deathId: D;
+}
+
+export interface IBouquets<D, T> {
+    userGiving: D;
+    date: T;
 }
