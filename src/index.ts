@@ -51,5 +51,8 @@ export {
     IDataFrontDeleteComment
 } from "./api/comment";
 export {
+    IDataFrontUpdateDeath
+} from "./api/death";
+export {
     router
 } from "./router";
