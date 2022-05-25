@@ -51,8 +51,12 @@ export {
     IDataFrontDeleteComment
 } from "./api/comment";
 export {
-    IDataFrontUpdateDeath
+    IDataFrontUpdateDeath,
+    IDataFrontAddAdmin,
 } from "./api/death";
 export {
     router
 } from "./router";
+export {
+    verifyLink
+} from "./utils/verifyLink";

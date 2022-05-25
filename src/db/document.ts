@@ -3,14 +3,14 @@ import { TPictures, TSexe } from "../api/user";
 
 export type usersTypes = "adminAdmin" | "userAdmin" | "user" | "funeral"
 
-export interface IUsers<D> {
+export interface IUsers<T> {
     type: Array<usersTypes>;
     name: string;
     firstName: string;
     email: string;
     phone: string;
     sexe: TSexe;
-    dateOfBirth?: D;
+    dateOfBirth?: T;
     pictures?: TPictures;
 }
 
@@ -55,6 +55,7 @@ export interface IDeath<D, T> {
     numberOfThoughtsSend: number;
     numberOfBouquetsLaid: number;
     numberOfTestimoniesLeft: number;
+    link?: string;
 }
 
 export interface IProduct {
