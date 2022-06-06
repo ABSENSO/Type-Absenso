@@ -56,6 +56,7 @@ export interface IDeath<D, T> {
     numberOfBouquetsLaid: number;
     numberOfTestimoniesLeft: number;
     link?: string;
+    funeral?: D;
 }
 
 export interface IProduct {
@@ -144,4 +145,12 @@ export interface IPayment<D, T> extends Omit<
 export interface IBouquets<D, T> {
     userGiving: D;
     date: T;
+}
+
+export interface IScanReporting<D, T> {
+    date: T;
+    death: D;
+    userScanned: D |  "unknown";
+    type: "stock" | "kit",
+    thingScanned: D;
 }

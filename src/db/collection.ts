@@ -12,5 +12,6 @@ export const collections = {
     notification: "notifications",
     follow: "follow", 
     payment: "payment",
-    bouquets: "bouquets"
+    bouquets: "bouquets",
+    userScanned: "userScanned"
 }

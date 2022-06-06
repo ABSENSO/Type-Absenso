@@ -16,7 +16,8 @@ export {
     INotification,
     IFollow,
     IPayment,
-    IBouquets
+    IBouquets,
+    IScanReporting
 } from "./db/document";
 export {
     IDataFrontAdminUser,
