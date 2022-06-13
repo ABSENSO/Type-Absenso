@@ -28,6 +28,7 @@ export interface IDataFrontFuneralUser {
     postalCode: string;
     city: string;
     country: string;
+    pictures?: null | string;
 }
 
 export interface IDataFrontUserSignup {

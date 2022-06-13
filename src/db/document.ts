@@ -27,6 +27,7 @@ export interface IFuneralCompany<T> {
     city: string;
     country: string;
     phone: string;
+    pictures: string | null;
 }
 
 export interface IGeolocation {
