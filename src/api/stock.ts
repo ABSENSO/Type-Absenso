@@ -18,7 +18,6 @@ export interface IDataFrontTransfer {
 }
 
 export interface IDataFrontLinkStockOrKit {
-    collection: string;
     products: Array<string> | undefined;
     death: string;
 }

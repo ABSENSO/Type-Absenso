@@ -29,6 +29,7 @@ export interface IDataFrontFuneralUser {
     city: string;
     country: string;
     pictures?: null | string;
+    description?: string | null;
 }
 
 export interface IDataFrontUserSignup {

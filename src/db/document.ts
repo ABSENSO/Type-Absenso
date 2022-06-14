@@ -2,6 +2,7 @@ import { IDataFrontOrderProduct } from "../api/order";
 import { TPictures, TSexe } from "../api/user";
 
 export type usersTypes = "adminAdmin" | "userAdmin" | "user" | "funeral"
+export type religionTypes = "catholic" | "muslim" | "jewish"
 
 export interface IUsers<T> {
     type: Array<usersTypes>;
@@ -28,6 +29,7 @@ export interface IFuneralCompany<T> {
     country: string;
     phone: string;
     pictures: string | null;
+    description: string | null;
 }
 
 export interface IGeolocation {
@@ -58,6 +60,7 @@ export interface IDeath<D, T> {
     numberOfTestimoniesLeft: number;
     link?: string;
     funeral?: D;
+    religion?: religionTypes;
 }
 
 export interface IProduct {

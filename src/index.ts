@@ -17,7 +17,8 @@ export {
     IFollow,
     IPayment,
     IBouquets,
-    IScanReporting
+    IScanReporting,
+    religionTypes
 } from "./db/document";
 export {
     IDataFrontAdminUser,
