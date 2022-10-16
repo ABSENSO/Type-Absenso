@@ -40,4 +40,5 @@ export interface IDataFrontUserSignup {
     phone: string;
     dateOfBirth: Date;
     pictures: TPictures;
+    password?: string;
 }
