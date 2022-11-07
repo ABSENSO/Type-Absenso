@@ -56,6 +56,7 @@ export {
     IDataFrontUpdateDeath,
     IDataFrontAddAdmin,
 } from "./api/death";
+export { urls } from "./api/urls";
 export {
     router
 } from "./router";

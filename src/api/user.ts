@@ -41,4 +41,5 @@ export interface IDataFrontUserSignup {
     dateOfBirth: Date;
     pictures: TPictures;
     password?: string;
+    uidGoogle?: string;
 }
