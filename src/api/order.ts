@@ -17,7 +17,7 @@ export interface IDataFrontOrderProduct<D, T> {
     date: T;
 }
 
-export interface IDataReceiveOrderProduct {
+export interface IDataReceivePaymentOrder {
     id: string;
     url: string;
 }

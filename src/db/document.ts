@@ -135,15 +135,15 @@ export interface IFollow<D, T> {
     date: T;
 }
 
-export interface IPayment<D, T> extends Omit<
+export interface IOrderProduct<D, T> extends Omit<
     IDataFrontOrderProduct<D, T>, "products" | "deathId"
 > {
     products: Array<{
         product: D;
         qte: number;
     }>;
-    status: "created" | "failed" | "complete",
     deathId: D;
+    payment: D;
 }
 
 export interface IBouquets<D, T> {
@@ -157,4 +157,16 @@ export interface IScanReporting<D, T> {
     userScanned: D |  "unknown";
     type: "stock" | "kit",
     thingScanned: D;
+}
+
+export interface IOrderOffers<D, T> {
+    date: T;
+    user: D;
+    offersUid: Array<string>;
+    payment: D;
+}
+
+export interface IPayment {
+    status: "created" | "failed" | "complete";
+    type: "offer" | "product";
 }

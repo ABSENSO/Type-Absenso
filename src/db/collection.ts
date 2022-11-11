@@ -5,13 +5,15 @@ export const collections = {
     product: "product",
     stock: "stock",
     kit: "kit",
-    orderCandles: "orderCandles",
+    b2bOrderProduct: "b2bOrderProduct",
     post: "post",
     likes: "likes",
     comments: "comments",
     notification: "notifications",
     follow: "follow", 
-    payment: "payment",
+    orderProduct: "orderProduct",
     bouquets: "bouquets",
-    userScanned: "userScanned"
+    userScanned: "userScanned",
+    offers: "orderOffers",
+    payment: "payment"
 }

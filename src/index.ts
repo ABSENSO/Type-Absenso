@@ -44,7 +44,7 @@ export {
 } from "./api/follow";
 export {
     IDataFrontOrderProduct,
-    IDataReceiveOrderProduct
+    IDataReceivePaymentOrder
 } from "./api/order";
 export {
     IDataFrontDeletePost
@@ -56,7 +56,14 @@ export {
     IDataFrontUpdateDeath,
     IDataFrontAddAdmin,
 } from "./api/death";
+export {
+    IDataFrontCreateOffers
+} from "./api/offers";
 export { urls } from "./api/urls";
+export {
+    IOfferData,
+    offersData
+} from "./utils/asset/offers";
 export {
     router
 } from "./router";

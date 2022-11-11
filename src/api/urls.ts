@@ -1,4 +1,4 @@
-const prefix = "/v1/"
+const prefix = "/v1"
 
 export const urls = {
     createUser: `${prefix}/create/user`,
@@ -22,4 +22,5 @@ export const urls = {
     orderCandleFuneral: `${prefix}/order/candles/funeral`,
     updateDeceased: `${prefix}/update/deceased`,
     addAdminDeceased: `${prefix}/add/admin/deceased`,
+    subscribeToAnOffer: `${prefix}/subscribe/offer`,
 }
