@@ -18,7 +18,9 @@ export {
     IPayment,
     IBouquets,
     IScanReporting,
-    religionTypes
+    religionTypes,
+    IOrderOffers,
+    IOrderProduct,
 } from "./db/document";
 export {
     IDataFrontAdminUser,
@@ -44,7 +46,8 @@ export {
 } from "./api/follow";
 export {
     IDataFrontOrderProduct,
-    IDataReceivePaymentOrder
+    IDataReceivePaymentOrder,
+    IDataFrontCloseOrder
 } from "./api/order";
 export {
     IDataFrontDeletePost
@@ -55,6 +58,8 @@ export {
 export {
     IDataFrontUpdateDeath,
     IDataFrontAddAdmin,
+    IDataFrontCreateDeceased,
+    IDataResponseDeceased,
 } from "./api/death";
 export {
     IDataFrontCreateOffers

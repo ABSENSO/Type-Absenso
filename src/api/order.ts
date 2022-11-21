@@ -21,3 +21,7 @@ export interface IDataReceivePaymentOrder {
     id: string;
     url: string;
 }
+
+export interface IDataFrontCloseOrder {
+    idOrderOffer: string;
+}

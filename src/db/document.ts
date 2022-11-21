@@ -40,8 +40,8 @@ export interface IGeolocation {
 
 export interface IDeath<D, T> {
     admin: Array<D | "absenso">;
-    profilePicture: string;
-    coverPicture: "default" | string;
+    profilePicture: null | string;
+    coverPicture: null | string;
     name: string;
     firstName: string;
     fullname: string;
@@ -61,6 +61,9 @@ export interface IDeath<D, T> {
     link?: string;
     funeral?: D;
     religion?: religionTypes;
+    type: "free" | "paid",
+    payment?: D;
+    offer?: D;
 }
 
 export interface IProduct {
@@ -164,9 +167,12 @@ export interface IOrderOffers<D, T> {
     user: D;
     offersUid: Array<string>;
     payment: D;
+    death?: D;
+    type: "started" | "finished";
 }
 
 export interface IPayment {
     status: "created" | "failed" | "complete";
     type: "offer" | "product";
+    price: number;
 }

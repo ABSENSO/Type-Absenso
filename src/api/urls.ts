@@ -23,4 +23,6 @@ export const urls = {
     updateDeceased: `${prefix}/update/deceased`,
     addAdminDeceased: `${prefix}/add/admin/deceased`,
     subscribeToAnOffer: `${prefix}/subscribe/offer`,
+    createDeath: `${prefix}/create/death`,
+    closeOffer: `${prefix}/close/order`
 }
