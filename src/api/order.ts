@@ -24,4 +24,20 @@ export interface IDataReceivePaymentOrder {
 
 export interface IDataFrontCloseOrder {
     idOrderOffer: string;
+    funeral?: string;
+    deliveryData?: {
+        firstName: string;
+        name: string;
+        email: string;
+        phone: string;
+        deliveryAddress: string;
+        deliveryCity: string;
+        deliveryPostalCode: string;
+        deliveryCountry: string;
+        sameDeliveryAndBilling: boolean;
+        billingAddress?: string;
+        billingCity?: string;
+        billingPostalCode?: string;
+        billingCountry?: string;
+    }
 }

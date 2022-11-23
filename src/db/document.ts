@@ -1,4 +1,4 @@
-import { IDataFrontOrderProduct } from "../api/order";
+import { IDataFrontCloseOrder, IDataFrontOrderProduct } from "../api/order";
 import { TPictures, TSexe } from "../api/user";
 
 export type usersTypes = "adminAdmin" | "userAdmin" | "user" | "funeral"
@@ -168,6 +168,8 @@ export interface IOrderOffers<D, T> {
     offersUid: Array<string>;
     payment: D;
     death?: D;
+    funeral?: D;
+    deliveryData?: IDataFrontCloseOrder["deliveryData"];
     type: "started" | "finished";
 }
 
