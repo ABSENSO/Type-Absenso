@@ -24,6 +24,7 @@ export interface IDataReceivePaymentOrder {
 
 export interface IDataFrontCloseOrder {
     idOrderOffer: string;
+    death: string;
     funeral?: string;
     deliveryData?: {
         firstName: string;
