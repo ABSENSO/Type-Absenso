@@ -8,6 +8,7 @@ export const urls = {
     detailsAddress: `${prefix}/details/address`,
     sendMail: `${prefix}/send/mail`,
     deletePosts: `${prefix}/delete/posts`,
+    addPost: `${prefix}/add/post`,
     deleteComments: `${prefix}/delete/comments`,
     deleteLikes: `${prefix}/delete/likes`,
     deleteFollow: `${prefix}/delete/follow`,

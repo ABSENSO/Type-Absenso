@@ -50,7 +50,8 @@ export {
     IDataFrontCloseOrder
 } from "./api/order";
 export {
-    IDataFrontDeletePost
+    IDataFrontDeletePost,
+    IDataFrontAddPost,
 } from "./api/post";
 export {
     IDataFrontDeleteComment
