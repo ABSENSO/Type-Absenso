@@ -16,7 +16,7 @@ export const urls = {
     webhookOrder: `${prefix}/webhook/order`,
     addProduct: `${prefix}/add/product`,
     addStock: `${prefix}/add/stock`,
-    createKit: `${prefix}/add/stock`,
+    createKit: `${prefix}/create/kit`,
     transferStock: `${prefix}/transfer/stock`,
     transferKit: `${prefix}/transfer/kit`,
     linkProductWithDeceased: `${prefix}/link/product/deceased`,
