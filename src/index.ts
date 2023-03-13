@@ -61,6 +61,7 @@ export {
     IDataFrontAddAdmin,
     IDataFrontCreateDeceased,
     IDataResponseDeceased,
+    IDataFrontCreateDeceasedWithproduct,
 } from "./api/death";
 export {
     IDataFrontCreateOffers

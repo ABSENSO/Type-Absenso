@@ -37,3 +37,8 @@ export interface IDataResponseDeceased {
     message: string;
     uid: string;
 }
+
+export interface IDataFrontCreateDeceasedWithproduct<D, T> {
+    death: IDataFrontCreateDeceased<D, T>;
+    kitUid: string;
+}
