@@ -26,5 +26,9 @@ export const urls = {
     subscribeToAnOffer: `${prefix}/subscribe/offer`,
     createDeath: `${prefix}/create/death`,
     closeOffer: `${prefix}/close/order`,
-    createDeathWithProduct: `${prefix}/create/death/with/product`
+    createDeathWithProduct: `${prefix}/create/death/with/product`,
+    contact: `${prefix}/contact`,
+    resetPassword: `${prefix}/reset/password`,
+    updateDeathProfile: `${prefix}/update/profile/death`,
+    updateDeathLocation: `${prefix}/update/location/death`,
 }

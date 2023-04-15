@@ -7,3 +7,10 @@ export interface IDataFrontMail {
         dataTemplate: {[x:string]: string}
     }
 }
+
+export interface IDataContact {
+    name: string;
+    email: string;
+    phone: string;
+    question: string;
+}

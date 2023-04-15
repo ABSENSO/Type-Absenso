@@ -171,6 +171,7 @@ export interface IOrderOffers<D, T> {
     funeral?: D;
     deliveryData?: IDataFrontCloseOrder["deliveryData"];
     type: "started" | "finished";
+    deathIdAlreadExist?: string;
 }
 
 export interface IPayment {

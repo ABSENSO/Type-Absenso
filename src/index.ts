@@ -27,8 +27,10 @@ export {
     IDataFrontFuneralUser,
     TSexe,
     IDataFrontUserSignup,
+    IDataFrontResetPassword,
+    IDataResResetPassword,
 } from "./api/user";
-export {IDataFrontMail} from "./api/mail";
+export {IDataFrontMail, IDataContact} from "./api/mail";
 export {
     IDataFrontUploadStock,
     IDataFrontCreateKit,
@@ -62,6 +64,8 @@ export {
     IDataFrontCreateDeceased,
     IDataResponseDeceased,
     IDataFrontCreateDeceasedWithproduct,
+    IDataFrontUpdateProfile,
+    IDataFrontUpdateLocation
 } from "./api/death";
 export {
     IDataFrontCreateOffers

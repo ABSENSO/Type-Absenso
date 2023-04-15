@@ -8,6 +8,23 @@ export interface IDataFrontUpdateDeath {
     newData: string;
 }
 
+export interface IDataFrontUpdateProfile<D, T> {
+    idDeath: string;
+    data: {
+        firstName: IDeath<D, T>["firstName"];
+        name: IDeath<D, T>["name"];
+        dateOfBirth: string;
+        dateOfDeath: string;
+        description: IDeath<D, T>["description"];
+    }
+}
+
+export interface IDataFrontUpdateLocation<D, T> {
+    idDeath: string;
+    lastAddress: IDeath<D, T>["lastAddress"];
+    geoLocation: IDeath<D, T>["geoLocation"];
+}
+
 export interface IDataFrontAddAdmin<T> {
     idDeath: string;
     idUser?: string;

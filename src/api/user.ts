@@ -43,3 +43,12 @@ export interface IDataFrontUserSignup {
     password?: string;
     uidGoogle?: string;
 }
+
+export interface IDataFrontResetPassword {
+    email: string;
+}
+
+export interface IDataResResetPassword {
+    message: string;
+    code?: "auth/email-not-found" | "auth/invalid-email"
+}
